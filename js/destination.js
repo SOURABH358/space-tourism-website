@@ -20,6 +20,11 @@ window.addEventListener('DOMContentLoaded',()=>{
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
     }
+    else{
+        document.body.style.background = "url('./assets/destination/background-destination-mobile.jpg') no-repeat";
+        document.body.style.backgroundPosition = "center";
+        document.body.style.backgroundSize = "cover";
+    }
 })
 widthMatch.addEventListener('change', (mm) => {
     if (mm.matches) {

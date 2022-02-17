@@ -23,6 +23,13 @@ window.addEventListener('DOMContentLoaded',()=>{
         pic.setAttribute('src',"./assets/technology/image-spaceport-landscape.jpg")
 
     }
+    else{
+        document.body.style.background = "url('./assets/technology/background-technology-mobile.jpg') no-repeat";
+        document.body.style.backgroundPosition = "center";
+        document.body.style.backgroundSize = "cover";
+        pic.setAttribute('src',"./assets/technology/image-spaceport-potrait.jpg")
+
+    }
 })
 widthMatch.addEventListener('change', (mm) => {
     if (mm.matches) {
