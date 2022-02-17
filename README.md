@@ -15,11 +15,14 @@ Users should be able to:
 - View the optimal layout for each of the website's pages depending on their device's screen size
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
+### Screenshot
+
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://sourabh358.github.io/space-tourism-website/)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/space-tourism-website-solution-ia2-9LBns)
+- Live Site URL: [here](https://sourabh358.github.io/space-tourism-website/)
 ## Author
 
 - Frontend Mentor - [@SOURABH358](https://www.frontendmentor.io/profile/SOURABH358)
