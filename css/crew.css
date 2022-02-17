@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url("/assets/home/background-home-mobile.jpg") no-repeat;
+  background: url("./assets/home/background-home-mobile.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 100vh;
@@ -324,7 +324,7 @@ main .explore {
 }
 
 body {
-  background: url("/assets/crew/background-crew-mobile.jpg") no-repeat;
+  background: url("./assets/crew/background-crew-mobile.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
