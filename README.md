@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://sourabh358.github.io/space-tourism-website/)
+- Solution URL: [here](https://your-solution-url.com)
+- Live Site URL: [here](https://sourabh358.github.io/space-tourism-website/)
 ## Author
 
 - Frontend Mentor - [@SOURABH358](https://www.frontendmentor.io/profile/SOURABH358)
