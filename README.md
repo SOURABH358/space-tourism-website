@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [here](https://your-solution-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/space-tourism-website-solution-ia2-9LBns)
 - Live Site URL: [here](https://sourabh358.github.io/space-tourism-website/)
 ## Author
 
