@@ -1,0 +1,193 @@
+@import 'home';
+body{
+    background: url('/assets/crew/background-crew-mobile.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.crew{
+    margin-top:40px;
+    & *{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    h3{
+        margin-bottom: 80px;
+        font-size: 16px;
+        word-spacing: 1rem;
+        letter-spacing: 0.2rem;
+        opacity: 1;
+        strong{
+            font-size: 18px;
+            letter-spacing: 0.2rem;
+            margin-right: 15px;
+            font-weight: 700;
+            opacity: 0.4;
+        }
+    }
+    h2{
+        font-size: 26px;
+        margin-bottom: 20px;
+        opacity: 0.5;
+        letter-spacing: 0.2rem;
+        font-family: 'Nanum Myeongjo', serif;
+
+    }
+    h1{
+        font-size: 60px;
+        margin-bottom: 80px;
+        letter-spacing: 0.2rem;
+        word-spacing: 1rem;
+        font-family: 'Nanum Myeongjo', serif;
+
+    }
+    p{
+        width: 80%;
+        font-size: 12px;
+        margin: auto;
+        line-height: 30px;
+        letter-spacing: 0.1rem;
+        word-spacing: 0.3rem;
+        margin-bottom: 60px;
+        text-transform: capitalize;
+        font-family: 'Nanum Myeongjo', serif;
+        opacity: 0.6;
+    }
+    .sub-nav{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 80px;
+        .tab{
+            margin-right: 20px;
+            cursor: pointer;
+            .circle{
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background: transparent;
+                border: 1px solid white;
+            }
+        }
+    }
+    .pic{
+        width:60%;
+        margin: auto;
+        img{
+            width:100%
+        }
+    }
+}
+
+@media (min-width: 800px){
+    .crew{
+        margin-top:100px;
+        & *{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        h3{
+            margin-bottom: 80px;
+            font-size: 25px;
+            word-spacing: 1rem;
+            letter-spacing: 0.2rem;
+            opacity: 1;
+            strong{
+                font-size: 27px;
+                letter-spacing: 0.2rem;
+                margin-right: 15px;
+                font-weight: 700;
+                opacity: 0.4;
+            }
+        }
+        h2{
+            font-size: 35px;
+            margin-bottom: 20px;
+            opacity: 0.5;
+            letter-spacing: 0.2rem;
+            font-family: 'Nanum Myeongjo', serif;
+    
+        }
+        h1{
+            font-size: 90px;
+            margin-bottom: 80px;
+        }
+        p{
+            width: 80%;
+            margin: auto;
+            line-height: 30px;
+            letter-spacing: 0.1rem;
+            word-spacing: 0.5rem;
+            margin-bottom: 60px;
+        }
+        .sub-nav{
+            
+            margin-bottom: 80px;
+            .tab{
+                width: 20px;
+                height: 20px;
+                
+                margin-right: 20px;
+                
+            }
+        }
+        .pic{
+            width:80%;
+            margin: auto;
+            img{
+                width:100%
+            }
+        }
+    }
+}
+// 
+@media (min-width: 1200px){
+    .crew{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+
+        & *{
+            text-align:left;
+        }
+        .info{
+            margin-right: 0;
+            h3{
+                font-size: 22px;
+                margin-bottom: 100px;
+                strong{
+                    font-size:26px;
+                }
+            }
+            h2{
+                font-size: 30px;
+            }
+            h1{
+                font-size: 50px;
+                margin-bottom: 30px;
+            }
+            p{
+                margin: 0;
+                font-size: 14px;
+                letter-spacing: normal;
+                margin-bottom: 100px;
+                line-height: 25px;
+                width: 70%;
+            }
+            .sub-nav{
+                justify-content: flex-start;
+                margin: 0;
+            }
+        }
+        .pic{
+            width: 100%;
+            margin: 0;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

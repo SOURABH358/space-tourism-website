@@ -1,0 +1,237 @@
+@import "home";
+
+body{
+    background: url('/assets/destination/background-destination-mobile.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.destinations{
+    margin: auto;
+    margin-top: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .col1{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 120px;
+        h3{
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 20px;
+            letter-spacing: 0.2rem;
+            word-spacing: 1rem;
+            margin-bottom: 60px;
+            opacity: 1;
+            strong{
+                margin-right: 30px;
+                font-size: 22px;
+                opacity: 0.3;
+            }
+        }
+        .dest-pic{
+            width: 90%;
+            margin:auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .col2{
+        width:100%;
+        text-align: center;
+        .sub-nav{
+            width: 90%;
+            margin: auto{
+                bottom: 40px;
+            }
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            li{
+                list-style:none;
+                position:relative;
+                opacity: 0.5;
+                    & ::after{
+                        content: '';
+                        position:absolute;
+                        width: 0%;
+                        height: 4px;
+                        background: #fff;
+                        bottom: -10px;
+                        left: 50%;
+                        text-align: center;
+                        transition: width 0.5s ease 0s, left 0.5s ease 0s;
+                    }
+                    &:hover ::after{
+                        width: 100%;
+                        left: 0;
+                    }
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 0.2rem;
+                }
+            }
+        }
+        h1{
+            font-size: 80px;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-family: 'Nanum Myeongjo', serif;
+            margin-bottom: 80px;
+        }
+        p{
+            font-size: 16px;
+            opacity: 0.5;
+            line-height: 25px;
+            text-align: justify;
+            margin-bottom: 100px;
+        }
+        hr{
+            margin-bottom: 10px;
+            opacity: 0.2;
+        }
+        .foot{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            .foot1{
+                text-transform: uppercase;
+                h6{
+                    margin-bottom: 20px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    opacity: 0.5;
+                }
+                h3{
+                    font-weight: 400;
+                    font-size: 30px;
+                    font-family: 'Nanum Myeongjo', serif;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .destinations{
+        width: 80%;
+        margin-top:7rem;
+        .col1{
+            width: 90%;
+            h3{
+                font-size:30px;
+                margin-bottom: 100px;
+                strong{
+                    font-size: 32px;
+                }
+            }
+        }
+        .col2{
+            h1{
+                font-size: 100px;
+            }
+            .sub-nav {
+                margin-bottom: 100px;
+                li{
+                    font-size: 20px; 
+                }
+            }
+            p{
+                font-size: 20px;
+            }
+            .foot{
+                .foot1{
+                    h6{
+                        font-size:18px;
+                    }
+                    h3{
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .destinations{
+        width: 100%;
+        margin-top: 10px;
+        flex-direction: row;
+        align-items: flex-start;
+        .col1{
+            padding-top: 0;
+            text-align: left;
+            margin: {
+                left: 100px;
+                right: 100px;
+                bottom: 0;
+            }
+            h3{
+                font-size: 20px;
+                margin-bottom: 80px;
+                margin-left: 60px;
+                letter-spacing: 0.5rem;
+                strong{
+                    font-size: 22px;
+                }
+            }
+           .dest-pic{
+               width:75%;
+               margin:0;
+               margin-left: 30%;
+               img{
+                   width: 100%;
+               }
+           }
+        }
+        .col2{
+            margin-top:80px;
+            padding:0;
+            padding-right: 150px;
+            padding-left: 120px;
+            text-align: left;
+            .sub-nav{
+                margin: 0;
+                margin-bottom: 50px;
+                justify-content: flex-start;
+                li{
+                    margin-right:30px;
+                    a{
+                        font-size:14px;
+                    }
+                }
+            }
+            hr{
+                margin-bottom: 30px;
+            }
+            h1{
+                font-size: 90px;
+                margin-bottom: 20px;
+            }
+            p{
+                width: 100%;
+                margin-bottom: 50px;
+                font-size: 16px;
+            }
+            .foot{
+                justify-content: flex-start;
+                .foot1{
+                    margin-right: 60px;
+                    h6{
+                        font-size: 14px;
+                        letter-spacing: 0.1rem;
+                        margin-bottom: 10px;
+                    }
+                    h3{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
